@@ -45,7 +45,7 @@ void viewPlayers(const vector<Player>& players) {
              << " | Reb: " << players[i].rebounds << "\n";
     }
 }
-
+// AI from here
 void saveToFile(const vector<Player>& players) {
     ofstream out("players.txt");
 
@@ -58,7 +58,7 @@ void saveToFile(const vector<Player>& players) {
 
     cout << "Saved to players.txt\n";
 }
-// AI from here
+
 void loadFromFile(vector<Player>& players) {
     ifstream in("players.txt");
 
